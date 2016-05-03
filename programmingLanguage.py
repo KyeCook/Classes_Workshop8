@@ -13,3 +13,7 @@ class ProgrammingLanguage:
             return False
         else:
             return "Error incorrect input"
+
+    def __str__(self):
+        return "{}, {} typing, Reflection={}, First appeared in {}".format(self.name, self.typing, self.reflection,
+                                                                            self.year)

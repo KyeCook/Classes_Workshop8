@@ -6,7 +6,7 @@ def main():
     python = ProgrammingLanguage("Python", "Dynamic", True, 1991)
     vb = ProgrammingLanguage("Visual Basic", "Static", False, 1991)
     # print(ruby)
-    # print(python)
+    print(python)
     # print(vb)
 
     python_list = [ruby, python, vb]
@@ -14,6 +14,6 @@ def main():
     print("The dynamically typed languages are:")
     for language in python_list:
         if language.is_dynamic():
-            print "\t >", language.name
+            print("\t >", language.name)
 
 main()
